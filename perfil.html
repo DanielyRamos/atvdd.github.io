@@ -64,7 +64,7 @@
       </div>
     </div>
 
-    <!-- Contato -->
+    
     <div class="section-title">Informações de Contato</div>
     <div class="contact">
       <fieldset>
@@ -89,7 +89,7 @@
       </fieldset>
     </div>
 
-    <!-- Sobre Mim -->
+   
     <div class="section-title">Sobre Mim</div>
     <div class="about">
       <p>
@@ -97,7 +97,7 @@
       </p>
     </div>
 
-    <!-- Formação Acadêmica -->
+    
     <div class="section-title">Formação Acadêmica</div>
     <div class="education">
       <fieldset>
@@ -108,9 +108,13 @@
         <legend>UNIPAR</legend>
         <p><strong>Curso:</strong> Psicologia (Previsto: 2030)</p>
       </fieldset>
+      <fieldset>
+        <legend>Curso Técnico em Desenvolvimento de Sistemas Integrado ao Ensino Médio</legend>
+        <p><strong>Instituição:</strong> Leonardo da Vinci (Conclusão:2024)</p>
+      </fieldset>
     </div>
 
-    <!-- Experiência Profissional -->
+    
     <div class="section-title">Experiência Profissional</div>
     <div class="experience">
       <fieldset>
@@ -126,18 +130,19 @@
   </div>
 
   <script>
-    // Captura os parâmetros da URL (nome e email)
+    
     const params = new URLSearchParams(window.location.search);
     const nome = params.get('nome');
     const email = params.get('email');
 
-    // Preenche os campos com os dados capturados
-    document.getElementById('nome').innerText = nome ? nome : 'Nome não informado';
-    document.getElementById('email').innerText = email ? email : 'E-mail não informado';
+    
+    document.getElementById('nome').innerText = nome ? nome : 'Dany';
+    document.getElementById('email').innerText = email ? email : 'ramoos.daniely';
   </script>
 
 </body>
 </html>
+
 
 
 
