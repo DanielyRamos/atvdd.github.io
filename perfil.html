@@ -2,146 +2,96 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Perfil Profissional</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f5f7;
-      color: #333;
-    }
-
-    h1 {
-      text-align: center;
-      background-color: #0073b1;
-      color: white;
-      padding: 20px;
-      margin-bottom: 30px;
-    }
-
-    .container {
-      width: 80%;
-      margin: auto;
-      background-color: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .profile-img {
-      width: 120px;
-      height: 120px;
-      margin-right: 15px;
-    }
-
-    .section-title {
-      background-color: #e4f1fb;
-      color: #0073b1;
-      font-weight: bold;
-      padding: 10px;
-      margin-top: 20px;
-    }
-
-    .about, .experience, .education, .contact {
-      background-color: #f7f8fa;
-      padding: 15px;
-      border-radius: 4px;
-      margin-top: 15px;
-    }
-  </style>
+  <title>Perfil Profissional - Daniely Ramos</title>
 </head>
 <body>
 
-  <h1>Perfil Profissional de Daniely Ramos</h1>
+  <h1 align="center">Perfil Profissional de Daniely Ramos</h1>
 
-  <div class="container">
-    <!-- Informações Básicas -->
-    <div class="section-title">Informações Básicas</div>
-    <div class="profile">
-      <img src="dany.jpg.jpeg" alt="Foto de perfil" class="profile-img">
-      <div>
-        <strong>Nome:</strong> Daniely Ramos<br>
-        <strong>Profissão:</strong> Estagiária – Setor Administrativo
-      </div>
-    </div>
+  <!-- Estrutura com <table> -->
+  <table border="1" width="100%" cellspacing="10">
+    <tr>
+      <td rowspan="2" width="150" align="center">
+        <img src="dany.jpg.jpeg" width="120" height="120" alt="Foto de perfil">
+      </td>
+      <td><strong>Nome:</strong> Daniely Ramos</td>
+    </tr>
+    <tr>
+      <td><strong>Profissão:</strong> Estagiária – Setor Administrativo</td>
+    </tr>
+  </table>
 
-    
-    <div class="section-title">Informações de Contato</div>
-    <div class="contact">
-      <fieldset>
-        <legend>E-mail</legend>
-        <p><strong>Email:</strong> <span id="email">E-mail não informado</span></p>
-      </fieldset>
-      <fieldset>
-        <legend>Telefone</legend>
-        <p><strong>Telefone:</strong> (99) 99999-9999</p>
-      </fieldset>
-      <fieldset>
-        <legend>Senha</legend>
-        <p><strong>Senha:</strong> ********</p>
-      </fieldset>
-      <fieldset>
-        <legend>Data de Nascimento</legend>
-        <p><strong>Data de Nascimento:</strong> <input type="date" id="data" readonly></p>
-      </fieldset>
-      <fieldset>
-        <legend>Currículo</legend>
-        <p><strong>Currículo:</strong> <input type="file" id="curriculo" readonly></p>
-      </fieldset>
-    </div>
+  <!-- Contato -->
+  <h2>Contato</h2>
+  <fieldset>
+    <legend>E-mail</legend>
+    <p><strong>Email:</strong> <span id="email">E-mail não informado</span></p>
+  </fieldset>
+  <fieldset>
+    <legend>Telefone</legend>
+    <p><strong>Telefone:</strong> (99) 99999-9999</p>
+  </fieldset>
+  <fieldset>
+    <legend>LinkedIn</legend>
+    <p><strong>Perfil:</strong> linkedin.com/in/danielyramos</p>
+  </fieldset>
 
-   
-    <div class="section-title">Sobre Mim</div>
-    <div class="about">
-      <p>
-        Estudante de Marketing Digital, com interesse em Psicologia e tecnologia. Busco desenvolver habilidades na área digital com foco em inovação, criatividade e comunicação.
-      </p>
-    </div>
+  <!-- Sobre Mim -->
+  <h2>Resumo Profissional</h2>
+  <fieldset>
+    <p>Estudante de Marketing Digital, com interesse em Psicologia e tecnologia. Busco desenvolver habilidades na área digital com foco em inovação, criatividade e comunicação.</p>
+  </fieldset>
 
-    
-    <div class="section-title">Formação Acadêmica</div>
-    <div class="education">
-      <fieldset>
-        <legend>Plataforma EAD</legend>
-        <p><strong>Curso:</strong> Marketing Digital (Conclusão: 2026)</p>
-      </fieldset>
-      <fieldset>
-        <legend>UNIPAR</legend>
-        <p><strong>Curso:</strong> Psicologia (Previsto: 2030)</p>
-      </fieldset>
-      <fieldset>
-        <legend>Curso Técnico em Desenvolvimento de Sistemas Integrado ao Ensino Médio</legend>
-        <p><strong>Instituição:</strong> Leonardo da Vinci (Conclusão:2024)</p>
-      </fieldset>
-    </div>
+  <!-- Experiência -->
+  <h2>Experiência Profissional</h2>
+  <fieldset>
+    <legend>Jovem Aprendiz – Auxiliar Administrativo</legend>
+    <p><strong>Empresa:</strong> BRF</p>
+    <p><strong>Período:</strong> 2023 - 2024 (1 ano e 7 meses)</p>
+  </fieldset>
+  <fieldset>
+    <legend>Estagiária – Setor Administrativo</legend>
+    <p><strong>Empresa:</strong> CISS</p>
+    <p><strong>Período:</strong> 2025 - Atual</p>
+  </fieldset>
 
-    
-    <div class="section-title">Experiência Profissional</div>
-    <div class="experience">
-      <fieldset>
-        <legend>Experiência: Jovem Aprendiz – Auxiliar Administrativo</legend>
-        <p><strong>BRF • 2023 - 2024 (1 ano e 7 meses)</strong></p>
-      </fieldset>
+  <!-- Formação -->
+  <h2>Formação Acadêmica</h2>
+  <fieldset>
+    <legend>Plataforma EAD</legend>
+    <p><strong>Curso:</strong> Marketing Digital – Conclusão: 2026</p>
+  </fieldset>
+  <fieldset>
+    <legend>UNIPAR</legend>
+    <p><strong>Curso:</strong> Psicologia (Previsão: 2030)</p>
+  </fieldset>
+  <fieldset>
+    <legend>Curso Técnico</legend>
+    <p><strong>Curso:</strong> Desenvolvimento de Sistemas – Leonardo da Vinci (Conclusão: 2024)</p>
+  </fieldset>
 
-      <fieldset>
-        <legend>Cargo Atual: Estagiária - Setor Administrativo (CISS)</legend>
-        <p><strong>CISS • 2024 - Atual</strong></p>
-      </fieldset>
-    </div>
-  </div>
+  <!-- Habilidades -->
+  <h2>Habilidades</h2>
+  <fieldset>
+    <ul>
+      <li>Organização e comunicação</li>
+      <li>Conhecimento em marketing digital</li>
+      <li>Iniciativa e criatividade</li>
+      <li>Conhecimento básico em programação</li>
+    </ul>
+  </fieldset>
 
   <script>
-    
     const params = new URLSearchParams(window.location.search);
-    const nome = params.get('nome');
-    const email = params.get('email');
-
-    
-    document.getElementById('nome').innerText = nome ? nome : 'Dany';
-    document.getElementById('email').innerText = email ? email : 'ramoos.daniely';
+    const email = params.get("email");
+    if (email) {
+      document.getElementById("email").innerText = email;
+    }
   </script>
 
 </body>
 </html>
+
 
 
 
